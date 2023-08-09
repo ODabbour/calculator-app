@@ -1,0 +1,219 @@
+/* Calculator app by Olaa Dabbour */
+
+/* * {
+  outline: solid 1px red;
+} */
+
+body {
+  font-family: Roboto, Arial;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.body-light {
+  background-color: white;
+}
+
+.calculator {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 18vh minmax(80vh, 1fr);
+  justify-items: center;
+  margin: 0;
+}
+
+.header {
+  width: auto;
+  max-width: 800px;
+  font-size: 7vh;
+  display: grid;
+  grid-template-columns: 75vw 10vw;
+  column-gap: 3vw;
+  justify-content: center;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.output {
+  height: 7%;
+  font-size: 8vh;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+.output-light {
+  color: black;
+}
+
+/* 
+.output {
+  height: 7%;
+  font-size: 8vh;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+.output-light {
+  color: black;
+}
+
+.header-toggle-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 3vh;
+  background-color: rgb(36, 143, 214);
+}
+
+.row {
+  display: flex;
+  height: 6vh;
+}
+
+.button-container {
+  margin: 0 1vw;
+}
+
+.lastRow {
+  display: flex;
+  width: 1fr;
+  justify-content: left;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-img {
+  height: 55%;
+  position: relative;
+  right: 4px;
+}
+*/
+
+.buttonsField {
+  display: grid;
+  align-content: space-evenly;
+}
+
+button {
+  opacity: 1;
+  height: 11vh;
+  width: 11vh;
+  max-height: 22vw;
+  max-width: 22vw;
+  font-size: 3vh;
+  border-radius: 20vh;
+  cursor: pointer;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  transition: 0.2ms;
+}
+
+.toggle-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 3vh;
+  background-color: rgb(36, 143, 214);
+}
+
+.moon{
+  height: 100%;
+}
+
+.sun {
+  height: 80%;
+}
+
+.row {
+  display: flex;
+  width: 1fr;
+  height: 6vh;
+}
+
+.button-container {
+  margin: 0 1vw;
+}
+
+.lastRow {
+  display: flex;
+  width: 1fr;
+  justify-content: left;
+}
+
+.button-light {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.75;
+}
+
+.zero {
+  width: 22vh;
+  max-width: 46vw;
+}
+
+.clear,
+.delete {
+  background-color: rgb(177, 177, 177);
+  color: black;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add,
+.equal {
+  background-color: rgb(0, 153, 255);
+}
+
+.light-mode-button {
+  padding: 0;
+  background-color: rgb(195, 231, 255);
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-img {
+  height: 55%;
+  position: relative;
+  right: 5px;
+}
+
+.equal {
+  height: 25vh;
+  max-height: 25vh;
+}
